@@ -1,4 +1,4 @@
-### itertools.combinations(list(), int)
+# itertools.combinations(list(), int)
 
 ```python
 import itertools
@@ -13,7 +13,7 @@ for subset in itertools.combinations(array, len(array)-1):
 #(2, 3)
 ```
 
-### itertools.permutations(list(), int)
+# itertools.permutations(list(), int)
 
 ```python
 import itertools
