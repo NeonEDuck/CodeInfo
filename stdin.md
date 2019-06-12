@@ -1,4 +1,4 @@
-### stdin
+# stdin
 ```python
 import sys
 
