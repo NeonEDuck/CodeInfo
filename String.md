@@ -1,4 +1,4 @@
-#String's character swap
+# String's character swap
 ```python
 	line = 'ATTCAG'
 	line = line.translate(string.maketrans('ATCG', 'TAGC'))
