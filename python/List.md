@@ -1,4 +1,3 @@
-
 # from x to the end
 ```python
 line = '0123456789'
