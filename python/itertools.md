@@ -1,6 +1,6 @@
 # itertools
 
-### combinations(list(), int=subsetLen)
+### combinations(list=array, int=subsetLen)
 
 ```python
 from itertools import combinations
