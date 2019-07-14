@@ -14,7 +14,7 @@
     1. map
     2. join
 
-[itertools]: https://github.com/NeonEDuck/CodeInfo/edit/master/python/itertools.md
-[datetime]: https://github.com/NeonEDuck/CodeInfo/edit/master/python/datetime.md
-[str]: https://github.com/NeonEDuck/CodeInfo/edit/master/python/str.md
-[function]: https://github.com/NeonEDuck/CodeInfo/edit/master/python/function.md
+[itertools]: https://github.com/NeonEDuck/CodeInfo/blob/master/python/itertools.md
+[datetime]: https://github.com/NeonEDuck/CodeInfo/blob/master/python/datetime.md
+[str]: https://github.com/NeonEDuck/CodeInfo/blob/master/python/str.md
+[function]: https://github.com/NeonEDuck/CodeInfo/blob/master/python/function.md
