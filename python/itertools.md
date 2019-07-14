@@ -1,6 +1,6 @@
 # itertools
 
-### combinations(list(), int)
+### combinations(list(), int=subsetLen)
 
 ```python
 from itertools import combinations
@@ -14,7 +14,7 @@ for subset in combinations(array, len(array)-1):
 #(2, 3)
 ```
 
-### permutations(list(), int)
+### permutations(list=array, int=subsetLen)
 
 ```python
 from itertools import permutations
