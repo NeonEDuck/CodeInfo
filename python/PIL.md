@@ -7,6 +7,7 @@
 #!/usr/bin/env python3
 
 from PIL import Image
+
 path = 'example.png'
 img = Image.open(path)
 ```
@@ -15,6 +16,7 @@ img = Image.open(path)
 #!/usr/bin/env python3
 
 from PIL import Image
+
 path = 'example.png'
 img = Image.open(path)
 print(img.size)
@@ -28,6 +30,7 @@ print(img.size)
 #!/usr/bin/env python3
 
 from PIL import Image
+
 img = Image.new('RGB', (150, 150))
 print(img.mode)
 print(img.size)
@@ -42,6 +45,7 @@ print(img.size)
 #!/usr/bin/env python3
 
 from PIL import Image
+
 path = 'example.png'
 img = Image.open(path)
 data = img.load()
@@ -66,6 +70,7 @@ for x in range(w):
 
 from PIL import Image
 import math
+
 w, h = 150, 150
 img = Image.new('RGB', (w, h))
 data = img.load()
