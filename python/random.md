@@ -4,76 +4,82 @@
 ```python
 #!/usr/bin/env python3
 
-import random
+from random import random
 
-print(random.random())
+print( random() ) # ( 0.0 ~ 1.0 )
 
 # output:
 # 0.07575896917149338
 ```
 
-### randint( int=start, int=end )
+### randint( start, end )
 ```python
 #!/usr/bin/env python3
 
-import random
+from random import randint
 
-print(random.randint(1, 50)) #(1~50)
+print( randint(1, 50) ) # ( 1 ~ 50 )
 
 # output:
 # 17
 ```
 
-### randrange( int=start, int=end, int=interval)
+### randrange( start, end [, interval] )
 ```python
 #!/usr/bin/env python3
 
-import random
+from random import randrange
 
-print(random.randrange(0, 101, 2)) #(0~100) even
+print( randrange( 0, 101, 2 ) ) # ( 0 ~ 100 ) even
 
 # output:
 # 64
 ```
 
-### uniform( int=start, int=end )
+### uniform( start, end )
 ```python
 #!/usr/bin/env python3
 
-import random
+from random import uniform
 
-print(random.uniform(0, 50)) #(0~50) 
+print( uniform( 0, 50 ) ) # ( 0.0 ~ 50.0 ) 
 
 # output:
 # 34.2310553547616458
 ```
 
-### choice( str=sample )
+### choice( sample )
 ```python
 #!/usr/bin/env python3
 
-import random
+from random import choice
 
-print(random.choice('ABC'))
-print(random.choice(['rock', 'paper', 'scissors']))
+print( choice( 'ABC' ) )
+print( choice( [ 'rock', 'paper', 'scissors' ] ) )
 
 # output:
 # B
 # rock
 ```
 
-### sample( str=sample )
+### sample( pool, number )
 ```python
 #!/usr/bin/env python3
 
-import random
+from random import sample
 import string
 
-print(random.sample('ABCDEFGHIJ', 3))
-ran_str = ''.join(random.sample(string.ascii_letters + string.digits, 8))
-print(ran_str)
-ran_str2 = ''.join(random.sample(['j','i','h','g','f','e','d','c','b','a'], 5))
-print(ran_str2)
+AtoJPool = 'ABCDEFGHIJ'
+letterDigitPool = string.ascii_letters + string.digits
+JtoAPool = ['j','i','h','g','f','e','d','c','b','a']
+
+print( sample( AtoJPool, 3 ) )
+
+ran_str1 = ''.join( sample( letterDigitPool, 8 ) )
+print( ran_str1 )
+
+ran_str2 = ''.join( sample( JtoAPool, 5 ) )
+print( ran_str2 )
 
 # output:
 # ['E', 'J', 'G']
@@ -81,15 +87,15 @@ print(ran_str2)
 # bedif
 ```
 
-### shuffle( list=target )
+### shuffle( iterable )
 ```python
 #!/usr/bin/env python3
 
-import random
+from random import shuffle
 
-numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-random.shuffle(numList)
-print(numList)
+numList = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 ]
+shuffle( numList )
+print( numList )
 
 # output:
 # [4, 2, 7, 9, 0, 1, 8, 5, 6, 3]

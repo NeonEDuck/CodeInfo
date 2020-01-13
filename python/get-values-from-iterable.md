@@ -1,52 +1,54 @@
-# from x to the end
+# iterable: get values
+
+## from x to the end
 ```python
 line = '0123456789'
-print(line[3:])
+print( line[3:] )
 # 3456789
 ```
 
-# from the start to x
+## from the start to x
 ```python
 line = '0123456789'
-print(line[:3])
+print( line[:3] )
 # 012
 ```
 
-# x count from the back
+## x count from the back
 ```python
 line = '0123456789'
-print(line[-3:])
-print(line[:-3])
+print( line[-3:] )
+print( line[:-3] )
 # 789
 # 0123456
 ```
 
-# even
+## even
 ```python
 line = '0123456789'
-print(line[::2])
+print( line[::2] )
 # 02468
 ```
 
-# odd
+## odd
 ```python
 line = '0123456789'
-print(line[1::2])
+print( line[1::2] )
 # 13579
 ```
 
-# backward
+## backward
 ```python
 line = '0123456789'
-print(line[::-1])
+print( line[::-1] )
 # 9876543210
 ```
 
-# |s
+## |s
 ```python
 line = '0123456789'
-print(line[3:6])
-print(line[6:3:-1])
+print( line[3:6] )
+print( line[6:3:-1] )
 # 345
 # 654
 
