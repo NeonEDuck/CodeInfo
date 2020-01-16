@@ -1,7 +1,5 @@
-# PIL
-###### python -m pip install pillow
+# PIL.Image
 
-## Image
 ### open( path )
 ```python
 #!/usr/bin/env python3
