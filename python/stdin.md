@@ -1,4 +1,7 @@
 # stdin
+
+###### python *.py < files
+
 ```python
 import sys
 
