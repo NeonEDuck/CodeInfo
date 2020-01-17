@@ -29,11 +29,15 @@
 
 ## [str]
 1. translate()
-2. rjust()
+2. ljust() / rjust()
 3. split() / rsplit()
-4. isdigit()
-5. isalpha()
-6. join()
+4. strip() / lstrip() / rstrip()
+5. upper() / lower() / swapcase()
+6. isdigit()
+7. isalpha()
+8. istitle()
+9. isascii()
+10. join()
 
 ## [iterable]
 1. map()
